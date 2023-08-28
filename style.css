@@ -1,0 +1,43 @@
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #0d6efd;
+    border-radius: 5px;
+    color: #0d6efd;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    line-height: 1;
+    margin-left: 100px;
+    padding: 7px 15px 7px 15px;
+    text-align: center;
+    justify-self: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+    color: white;
+    outline: 0;
+    text-decoration: none;
+}
+
+.fourth {
+    border-color: #0d6efd;
+    color: #0d6efd;
+    background-image: linear-gradient(45deg, #0d6efd 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 600ms ease-in-out;
+    text-decoration: none;
+}
+
+.fourth:hover {
+    background-position: 0;
+    text-decoration: none;
+}
